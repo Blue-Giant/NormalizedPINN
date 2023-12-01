@@ -1,0 +1,705 @@
+PDE type for problem: PINN
+
+Equation name for problem: constant
+
+Normalized the variable of PDE or not: True
+
+The variables that have Normalized: X_only
+
+Network model of solving problem: DNN
+
+Activate function for NN-input: sin
+
+Activate function for NN-hidden: sin
+
+Activate function for NN-output: linear
+
+hidden layer:(100, 80, 50, 50, 30)
+
+Loss function: L2 loss
+
+optimizer:Adam
+
+Init learning rate: 0.01
+
+Batch-size 2 interior for training: 5000
+
+Batch-size 2 boundary for training: 1000
+
+Batch-size 2 initial for training: 3000
+
+Initial boundary penalty: 20
+
+Initial penalty for initial condition: 20
+
+The penalty of boundary will keep unchanged with training going on.
+
+Model to load testing dataset: random_generate
+
+Batch-size for testing: 100
+
+no activate the stop_step and given_step = default: 50000
+
+train epoch: 0,time: 0.584
+learning rate: 0.0100000000
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 118.6110992432
+loss_bd for training: 1.4394993782
+loss_init for training: 0.2470806837
+loss for training: 152.3427124023
+mean square error of predict and real for testing: 0.282332748174667
+relative error of predict and real for testing: 4.468847751617432
+
+
+train epoch: 1000,time: 6.754
+learning rate: 0.0077632962
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.6335473657
+loss_bd for training: 0.4426551461
+loss_init for training: 0.0002304533
+loss for training: 9.4912595749
+mean square error of predict and real for testing: 0.197082340717316
+relative error of predict and real for testing: 3.119478702545166
+
+
+train epoch: 2000,time: 12.854
+learning rate: 0.0060268768
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.4085260332
+loss_bd for training: 0.4685055614
+loss_init for training: 0.0003526261
+loss for training: 9.7856903076
+mean square error of predict and real for testing: 0.203292340040207
+relative error of predict and real for testing: 3.217772483825684
+
+
+train epoch: 3000,time: 18.953
+learning rate: 0.0046788430
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.7492610216
+loss_bd for training: 0.4022901356
+loss_init for training: 0.0001735598
+loss for training: 8.7985353470
+mean square error of predict and real for testing: 0.203904211521149
+relative error of predict and real for testing: 3.227457284927368
+
+
+train epoch: 4000,time: 25.036
+learning rate: 0.0036323244
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 1.4826083183
+loss_bd for training: 0.3749696016
+loss_init for training: 0.0020796428
+loss for training: 9.0235929489
+mean square error of predict and real for testing: 0.195182368159294
+relative error of predict and real for testing: 3.089405298233032
+
+
+train epoch: 5000,time: 31.156
+learning rate: 0.0028198810
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0332945846
+loss_bd for training: 0.0022328114
+loss_init for training: 0.0000362854
+loss for training: 0.0786765218
+mean square error of predict and real for testing: 0.233429521322250
+relative error of predict and real for testing: 3.694792747497559
+
+
+train epoch: 6000,time: 37.268
+learning rate: 0.0021891572
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0556940548
+loss_bd for training: 0.0011073942
+loss_init for training: 0.0000226461
+loss for training: 0.0782948583
+mean square error of predict and real for testing: 0.179923683404922
+relative error of predict and real for testing: 2.847886323928833
+
+
+train epoch: 7000,time: 43.360
+learning rate: 0.0016995076
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0116888024
+loss_bd for training: 0.0008520414
+loss_init for training: 0.0000374591
+loss for training: 0.0294788126
+mean square error of predict and real for testing: 0.131800159811974
+relative error of predict and real for testing: 2.086172580718994
+
+
+train epoch: 8000,time: 49.473
+learning rate: 0.0013193781
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0161482580
+loss_bd for training: 0.0011491695
+loss_init for training: 0.0000975131
+loss for training: 0.0410819128
+mean square error of predict and real for testing: 0.111262381076813
+relative error of predict and real for testing: 1.761094450950623
+
+
+train epoch: 9000,time: 55.589
+learning rate: 0.0010242723
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0090984171
+loss_bd for training: 0.0004748184
+loss_init for training: 0.0002260026
+loss for training: 0.0231148377
+mean square error of predict and real for testing: 0.098544977605343
+relative error of predict and real for testing: 1.559799551963806
+
+
+train epoch: 10000,time: 61.667
+learning rate: 0.0007951729
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0068975068
+loss_bd for training: 0.0001829773
+loss_init for training: 0.0003125334
+loss for training: 0.0168077201
+mean square error of predict and real for testing: 0.081858329474926
+relative error of predict and real for testing: 1.295678257942200
+
+
+train epoch: 11000,time: 67.794
+learning rate: 0.0006173163
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0699977428
+loss_bd for training: 0.0000441310
+loss_init for training: 0.0001277806
+loss for training: 0.0734359697
+mean square error of predict and real for testing: 0.066554658114910
+relative error of predict and real for testing: 1.053447246551514
+
+
+train epoch: 12000,time: 73.907
+learning rate: 0.0004792409
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0055732070
+loss_bd for training: 0.0005074830
+loss_init for training: 0.0002816425
+loss for training: 0.0213557165
+mean square error of predict and real for testing: 0.061332415789366
+relative error of predict and real for testing: 0.970787942409515
+
+
+train epoch: 13000,time: 80.030
+learning rate: 0.0003720489
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0055527878
+loss_bd for training: 0.0001777594
+loss_init for training: 0.0000770757
+loss for training: 0.0106494883
+mean square error of predict and real for testing: 0.052492149174213
+relative error of predict and real for testing: 0.830861568450928
+
+
+train epoch: 14000,time: 86.145
+learning rate: 0.0002888326
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0033598761
+loss_bd for training: 0.0004555301
+loss_init for training: 0.0001808279
+loss for training: 0.0160870347
+mean square error of predict and real for testing: 0.039587195962667
+relative error of predict and real for testing: 0.626598060131073
+
+
+train epoch: 15000,time: 92.266
+learning rate: 0.0002242293
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0027912685
+loss_bd for training: 0.0004369750
+loss_init for training: 0.0000242293
+loss for training: 0.0120153558
+mean square error of predict and real for testing: 0.031332943588495
+relative error of predict and real for testing: 0.495947271585464
+
+
+train epoch: 16000,time: 98.388
+learning rate: 0.0001740758
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0025357716
+loss_bd for training: 0.0000262606
+loss_init for training: 0.0002304628
+loss for training: 0.0076702405
+mean square error of predict and real for testing: 0.026780446991324
+relative error of predict and real for testing: 0.423888981342316
+
+
+train epoch: 17000,time: 104.501
+learning rate: 0.0001351402
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0028388954
+loss_bd for training: 0.0001354904
+loss_init for training: 0.0000906491
+loss for training: 0.0073616859
+mean square error of predict and real for testing: 0.023506540805101
+relative error of predict and real for testing: 0.372068613767624
+
+
+train epoch: 18000,time: 110.600
+learning rate: 0.0001049134
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0016102323
+loss_bd for training: 0.0000148020
+loss_init for training: 0.0000935678
+loss for training: 0.0037776288
+mean square error of predict and real for testing: 0.020289003849030
+relative error of predict and real for testing: 0.321140468120575
+
+
+train epoch: 19000,time: 116.729
+learning rate: 0.0000814474
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0016329848
+loss_bd for training: 0.0001175829
+loss_init for training: 0.0000910935
+loss for training: 0.0058065113
+mean square error of predict and real for testing: 0.017923837527633
+relative error of predict and real for testing: 0.283703893423080
+
+
+train epoch: 20000,time: 122.859
+learning rate: 0.0000632300
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0019228943
+loss_bd for training: 0.0012848527
+loss_init for training: 0.0000055345
+loss for training: 0.0277306382
+mean square error of predict and real for testing: 0.016127008944750
+relative error of predict and real for testing: 0.255263149738312
+
+
+train epoch: 21000,time: 128.958
+learning rate: 0.0000490873
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0012820929
+loss_bd for training: 0.0000565730
+loss_init for training: 0.0000411583
+loss for training: 0.0032367187
+mean square error of predict and real for testing: 0.014778133481741
+relative error of predict and real for testing: 0.233912751078606
+
+
+train epoch: 22000,time: 135.098
+learning rate: 0.0000381079
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0013356603
+loss_bd for training: 0.0000081753
+loss_init for training: 0.0000592477
+loss for training: 0.0026841215
+mean square error of predict and real for testing: 0.013843704946339
+relative error of predict and real for testing: 0.219122335314751
+
+
+train epoch: 23000,time: 141.236
+learning rate: 0.0000295843
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0013601375
+loss_bd for training: 0.0000157960
+loss_init for training: 0.0000688299
+loss for training: 0.0030526565
+mean square error of predict and real for testing: 0.012891214340925
+relative error of predict and real for testing: 0.204046025872231
+
+
+train epoch: 24000,time: 147.341
+learning rate: 0.0000229672
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0012350659
+loss_bd for training: 0.0005371083
+loss_init for training: 0.0000594872
+loss for training: 0.0131669762
+mean square error of predict and real for testing: 0.012351747602224
+relative error of predict and real for testing: 0.195507183670998
+
+
+train epoch: 25000,time: 153.444
+learning rate: 0.0000178301
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0011129581
+loss_bd for training: 0.0001828063
+loss_init for training: 0.0000337830
+loss for training: 0.0054447451
+mean square error of predict and real for testing: 0.011888029985130
+relative error of predict and real for testing: 0.188167318701744
+
+
+train epoch: 26000,time: 159.528
+learning rate: 0.0000138420
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010904628
+loss_bd for training: 0.0000290156
+loss_init for training: 0.0000540450
+loss for training: 0.0027516757
+mean square error of predict and real for testing: 0.011470330879092
+relative error of predict and real for testing: 0.181555852293968
+
+
+train epoch: 27000,time: 165.867
+learning rate: 0.0000107460
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010972617
+loss_bd for training: 0.0000062167
+loss_init for training: 0.0000600080
+loss for training: 0.0024217549
+mean square error of predict and real for testing: 0.011185889132321
+relative error of predict and real for testing: 0.177053630352020
+
+
+train epoch: 28000,time: 172.340
+learning rate: 0.0000083424
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0012186070
+loss_bd for training: 0.0000061520
+loss_init for training: 0.0000581157
+loss for training: 0.0025039618
+mean square error of predict and real for testing: 0.010976256802678
+relative error of predict and real for testing: 0.173735499382019
+
+
+train epoch: 29000,time: 178.657
+learning rate: 0.0000064765
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010551710
+loss_bd for training: 0.0005498753
+loss_init for training: 0.0000326866
+loss for training: 0.0127064083
+mean square error of predict and real for testing: 0.010691125877202
+relative error of predict and real for testing: 0.169222369790077
+
+
+train epoch: 30000,time: 185.039
+learning rate: 0.0000050279
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010672936
+loss_bd for training: 0.0000485157
+loss_init for training: 0.0000529225
+loss for training: 0.0030960576
+mean square error of predict and real for testing: 0.010610939003527
+relative error of predict and real for testing: 0.167953133583069
+
+
+train epoch: 31000,time: 191.457
+learning rate: 0.0000039033
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010695198
+loss_bd for training: 0.0000910431
+loss_init for training: 0.0000643267
+loss for training: 0.0041769170
+mean square error of predict and real for testing: 0.010453457944095
+relative error of predict and real for testing: 0.165460482239723
+
+
+train epoch: 32000,time: 197.869
+learning rate: 0.0000030302
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0009990392
+loss_bd for training: 0.0000852124
+loss_init for training: 0.0000461785
+loss for training: 0.0036268565
+mean square error of predict and real for testing: 0.010376670397818
+relative error of predict and real for testing: 0.164245069026947
+
+
+train epoch: 33000,time: 204.268
+learning rate: 0.0000023525
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010874921
+loss_bd for training: 0.0003251125
+loss_init for training: 0.0000574771
+loss for training: 0.0087392852
+mean square error of predict and real for testing: 0.010271122679114
+relative error of predict and real for testing: 0.162574425339699
+
+
+train epoch: 34000,time: 210.577
+learning rate: 0.0000018263
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010266628
+loss_bd for training: 0.0000036217
+loss_init for training: 0.0000591328
+loss for training: 0.0022817515
+mean square error of predict and real for testing: 0.010271259583533
+relative error of predict and real for testing: 0.162576586008072
+
+
+train epoch: 35000,time: 216.730
+learning rate: 0.0000014178
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0009569843
+loss_bd for training: 0.0002850549
+loss_init for training: 0.0000531812
+loss for training: 0.0077217063
+mean square error of predict and real for testing: 0.010206183418632
+relative error of predict and real for testing: 0.161546543240547
+
+
+train epoch: 36000,time: 222.868
+learning rate: 0.0000011007
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0012529118
+loss_bd for training: 0.0000154589
+loss_init for training: 0.0000424598
+loss for training: 0.0024112845
+mean square error of predict and real for testing: 0.010166337713599
+relative error of predict and real for testing: 0.160915851593018
+
+
+train epoch: 37000,time: 228.996
+learning rate: 0.0000008545
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0024478964
+loss_bd for training: 0.0003534917
+loss_init for training: 0.0000571652
+loss for training: 0.0106610339
+mean square error of predict and real for testing: 0.010156050324440
+relative error of predict and real for testing: 0.160753026604652
+
+
+train epoch: 38000,time: 235.116
+learning rate: 0.0000006634
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010381738
+loss_bd for training: 0.0003186631
+loss_init for training: 0.0000509325
+loss for training: 0.0084300870
+mean square error of predict and real for testing: 0.010143043473363
+relative error of predict and real for testing: 0.160547152161598
+
+
+train epoch: 39000,time: 241.252
+learning rate: 0.0000005150
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010693939
+loss_bd for training: 0.0000021286
+loss_init for training: 0.0000442923
+loss for training: 0.0019978117
+mean square error of predict and real for testing: 0.010100492276251
+relative error of predict and real for testing: 0.159873634576797
+
+
+train epoch: 40000,time: 247.380
+learning rate: 0.0000003998
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010522574
+loss_bd for training: 0.0000052799
+loss_init for training: 0.0000501936
+loss for training: 0.0021617261
+mean square error of predict and real for testing: 0.010090782307088
+relative error of predict and real for testing: 0.159719944000244
+
+
+train epoch: 41000,time: 253.510
+learning rate: 0.0000003104
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0013387888
+loss_bd for training: 0.0000387620
+loss_init for training: 0.0000530008
+loss for training: 0.0031740456
+mean square error of predict and real for testing: 0.010078497231007
+relative error of predict and real for testing: 0.159525498747826
+
+
+train epoch: 42000,time: 259.639
+learning rate: 0.0000002410
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010264590
+loss_bd for training: 0.0002014576
+loss_init for training: 0.0000576684
+loss for training: 0.0062089791
+mean square error of predict and real for testing: 0.010073693469167
+relative error of predict and real for testing: 0.159449458122253
+
+
+train epoch: 43000,time: 265.764
+learning rate: 0.0000001871
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010024683
+loss_bd for training: 0.0001471239
+loss_init for training: 0.0000623348
+loss for training: 0.0051916405
+mean square error of predict and real for testing: 0.010064773261547
+relative error of predict and real for testing: 0.159308269619942
+
+
+train epoch: 44000,time: 271.867
+learning rate: 0.0000001452
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010550753
+loss_bd for training: 0.0003441433
+loss_init for training: 0.0000549596
+loss for training: 0.0090371324
+mean square error of predict and real for testing: 0.010068439878523
+relative error of predict and real for testing: 0.159366294741631
+
+
+train epoch: 45000,time: 278.010
+learning rate: 0.0000001127
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0012415065
+loss_bd for training: 0.0001847618
+loss_init for training: 0.0000513922
+loss for training: 0.0059645865
+mean square error of predict and real for testing: 0.010065924376249
+relative error of predict and real for testing: 0.159326478838921
+
+
+train epoch: 46000,time: 284.156
+learning rate: 0.0000000875
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010709522
+loss_bd for training: 0.0000417529
+loss_init for training: 0.0000552904
+loss for training: 0.0030118185
+mean square error of predict and real for testing: 0.010059690102935
+relative error of predict and real for testing: 0.159227803349495
+
+
+train epoch: 47000,time: 290.291
+learning rate: 0.0000000679
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010855431
+loss_bd for training: 0.0000103645
+loss_init for training: 0.0000621008
+loss for training: 0.0025348486
+mean square error of predict and real for testing: 0.010060392320156
+relative error of predict and real for testing: 0.159238919615746
+
+
+train epoch: 48000,time: 296.399
+learning rate: 0.0000000527
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010174297
+loss_bd for training: 0.0005076193
+loss_init for training: 0.0000594344
+loss for training: 0.0123585034
+mean square error of predict and real for testing: 0.010061197914183
+relative error of predict and real for testing: 0.159251675009727
+
+
+train epoch: 49000,time: 302.536
+learning rate: 0.0000000410
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010400196
+loss_bd for training: 0.0000025064
+loss_init for training: 0.0000524151
+loss for training: 0.0021384493
+mean square error of predict and real for testing: 0.010056738741696
+relative error of predict and real for testing: 0.159181088209152
+
+
+train epoch: 50000,time: 308.633
+learning rate: 0.0000000318
+boundary penalty: 20.000000
+init penalty: 20.000000
+weights and biases with  penalty: 0.000000
+loss_it for training: 0.0010507288
+loss_bd for training: 0.0000026223
+loss_init for training: 0.0000474930
+loss for training: 0.0020530368
+mean square error of predict and real for testing: 0.010061321780086
+relative error of predict and real for testing: 0.159253627061844
+
+
